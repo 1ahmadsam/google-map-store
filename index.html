@@ -13,12 +13,22 @@
     <div class="title">Store Locator</div>
     <div class="search-container">
       <div class="search">
-        <input type="text" id="zip-code" placeholder="Enter Zip" />
-        <i class="fas fa-search"></i>
+        <input
+          type="text"
+          id="zip-code"
+          onkeyup="onEnter(event)"
+          placeholder="Enter Zip"
+        />
+        <i class="fas fa-search" onclick="getStores()"></i>
       </div>
     </div>
     <div class="stores-list-container">
-      <div class="stores-list"></div>
+      <div class="stores-list">
+        <div class="intro">
+          <span class="enter-zip">Enter zip code</span
+          ><span class="find-stores">Find stores near you</span>
+        </div>
+      </div>
     </div>
 
     <div id="map"></div>

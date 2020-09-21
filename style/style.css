@@ -160,3 +160,30 @@ body {
   background-color: #cccccc87;
   cursor: pointer;
 }
+
+.intro {
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enter-zip {
+  color: #514c4c;
+  font-size: 22px;
+}
+
+.find-stores {
+  color: #1985a1;
+  font-size: 20px;
+}
+
+.no-stores-found {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #514c4c;
+  font-size: 20px;
+}
